@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="popup.css">
+</head><body>
+  <div class="head">
+    <div class="logo"></div>
+    <div>
+      <div class="title">Metadata Remover</div>
+      <div class="by">Interactor · processed in memory, never stored</div>
+    </div>
+  </div>
+
+  <div id="drop" class="drop">
+    <input type="file" id="file" hidden>
+    <div class="dicon">🧹</div>
+    <div class="dtitle" id="dtitle">Drop a file here</div>
+    <div class="dsub" id="dsub">or click to choose · max 200 MB</div>
+  </div>
+
+  <div id="bar" class="bar hide"><i id="fill"></i></div>
+  <div id="msg" class="msg"></div>
+
+  <div id="result" class="result hide">
+    <div class="ok">✅ Clean file ready</div>
+    <div class="what" id="what"></div>
+    <button id="save" class="btn">⬇ Download clean file</button>
+  </div>
+
+  <div class="foot">Images · PDF · Office · Video — GPS, author &amp; device info stripped.</div>
+  <script src="popup.js"></script>
+</body></html>

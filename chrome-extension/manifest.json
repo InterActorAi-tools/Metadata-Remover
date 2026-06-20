@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Interactor — Metadata Remover",
+  "version": "1.0.0",
+  "description": "Drag in a file to strip hidden metadata (GPS, author, device info) from images, PDFs, Office files & video.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Metadata Remover",
+    "default_icon": { "16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png" }
+  },
+  "icons": { "16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png" },
+  "host_permissions": ["https://tools-inter.actor/*"]
+}

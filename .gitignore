@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python / PyInstaller build artifacts
+mac-app/.venv/
+mac-app/build/
+mac-app/dist/
+mac-app/release/
+mac-app/bin/
+mac-app/*.spec
+mac-app/icon.icns
+mac-app/icon.iconset/
+**/__pycache__/
+*.pyc
+
+# local-only sync helper (contains local paths — never publish it)
+sync.sh
